@@ -21,7 +21,7 @@ client.on("ready", async () => {
     console.log("Bot is ready!");
     console.log(`${client.user.tag} || ${client.user.id}`);
     console.log(`${client.guilds.cache.size} guilds`);
-    console.log(`discord.gg/glee on top`)
+    console.log(`/glee join for support.`)
     /**
      * @type {Discord.Guild} 
      */
@@ -66,4 +66,4 @@ client.on("guildMemberUpdate", async (oldMember, newMember) => {
 /**
  * @description Logs the bot in via the token specified in the .env file
  */
-client.login("OTc4MjgxMjQ4MTA5NzY4NzE4.G9K2Db.7RjQ_1nSuSI62dvzwZ0IB4mBEuNvSipWlEJ0aQ");
+client.login("TOKEN HERE");
